@@ -1,0 +1,113 @@
+.shell {
+  display: block;
+  font-family: Nunito, sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 20px;
+  line-height: 27px;
+  padding: 6%;
+}
+
+.yellow-bar-sold {
+    background-color: #e9bf33;
+    width: 4.06rem;
+    height: 0.625rem;
+  }
+
+.react-multi-carousel-track {
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  position: relative;
+  height: 100%;
+  padding: 2%;
+  width: 100vw;
+}
+
+.card-container {
+  display: flex;
+  flex-direction: column;
+  width: 280px;
+  margin: 20%;
+  border-radius: 5px;
+  font-family: Nunito, sans-serif;
+  box-shadow: 0px 3px 1px -2px rgb(0 0 0 / 20%),
+    0px 2px 2px 0px rgb(0 0 0 / 14%), 0px 1px 5px 0px rgb(0 0 0 / 12%);
+  align-items: center;
+}
+
+.card-container img {
+  padding: 5%;
+  width: 100%;
+}
+
+.off-container {
+  background: #f8475f;
+  color: #fff;
+  position: relative;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  padding: 2%;
+  width: 100%;
+}
+
+.off-container h2 {
+  text-align: center;
+}
+
+.MuiButton-label {
+  color: #fff;
+  font-family: Nunito, sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 16px;
+}
+
+.text-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 5%;
+}
+
+.text-container h3 {
+  white-space: nowrap;
+  color: #7a7a7a;
+  padding: 2%;
+}
+
+.text-container h4 {
+  white-space: nowrap;
+  color: #7a7a7a;
+  padding: 2%;
+}
+
+.text-container a {
+  text-decoration: none;
+}
+
+.react-multi-carousel-item {
+  width: 400px;
+  margin: 1%;
+}
+
+.MuiButton-containedPrimary {
+  color: #fff;
+  background-color: #00e676;
+}
+
+@media screen and (max-width: 1024px) {
+  .react-multi-carousel-list {
+    padding: 5%;
+    margin: 5%;
+  }
+  .card-container {
+    margin: 0;
+  }
+  .react-multi-carousel-item {
+    width: 300px;
+    margin-top: 1%;
+    margin-bottom: 1%;
+  }
+}
