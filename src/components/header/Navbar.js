@@ -19,7 +19,7 @@ const useStyles = makeStyles((theme) => ({
 function Navbar() {
   const classes = useStyles();
 
-  const [click, setClick] = useState(false);
+  const [setClick] = useState(false);
 
   const closeMobileMenu = () => setClick(false);
 
